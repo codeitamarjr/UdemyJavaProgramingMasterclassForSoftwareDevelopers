@@ -35,7 +35,7 @@ You can come up with any player name, but the score of 1500, 900, 400 and 50.
 
 So in other words, you would call the various methods four times to come up with this, and to be clear the displayHighScorePosition is a void method, so it doesn't have to return any data, and incidentally as I remember it, a void method can also be known as a procedure and a method generally speaking can also known as a function. So you may hear me using those terms interchangeably throughout the course. Procedure would generally mean a method returning type void.
 
-###Speed Converter
+### Speed Converter
 1. Write a method called toMilesPerHour that has 1 parameter of type double with the name kilometersPerHour. This method needs to return the rounded value of the calculation of type long.
 
 If the parameter kilometersPerHour is less than 0, the method toMilesPerHour needs to return -1 to indicate an invalid value.
@@ -105,7 +105,7 @@ NOTE: 1 mile per hour is 1.609 kilometers per hour
 
 NOTE: Do not add a main method to the solution code.
 
-###MegaBytes Converter
+### MegaBytes Converter
 Write a method called printMegaBytesAndKiloBytes that has 1 parameter of type int with the name kiloBytes.
 
 The method should not return anything (void) and it needs to calculate the megabytes and remaining kilobytes from the kilobytes parameter.
@@ -141,7 +141,7 @@ NOTE: Do not set kilobytes parameter value inside your method.
 NOTE: The solution will not be accepted if there are extra spaces.
 NOTE: The printMegaBytesAndKiloBytes method  needs to be defined as public static like we have been doing so far in the course.NOTE: Do not add a  main method to solution code.
 
-###Barking Dog
+### Barking Dog
 We have a dog that likes to bark.  We need to wake up if the dog is barking at night!
 
 Write a method shouldWakeUp that has 2 parameters.
@@ -172,7 +172,9 @@ NOTE: The shouldWakeUp method  needs to be defined as public static like we have
 
 NOTE: Do not add a  main method to solution code.
 
-###Write a method isLeapYear with a parameter of type int named year.
+### LeapYear Calculator
+
+Write a method isLeapYear with a parameter of type int named year.
 
 The parameter needs to be greater than or equal to 1 and less than or equal to 9999.
 
@@ -182,10 +184,10 @@ Otherwise, if it is in the valid range, calculate if the year is a leap year and
 
 
 To determine whether a year is a leap year, follow these steps:
-1. If the year is evenly divisible by 4, go to step
-2. Otherwise, go to step 5.2. If the year is evenly divisible by 100, go to step
-3. Otherwise, go to step 4.3. If the year is evenly divisible by 400, go to step
-4. Otherwise, go to step 5.4. The year is a leap year (it has 366 days). The method isLeapYear needs to return true.
+1. If the year is evenly divisible by 4, go to step 2.Otherwise, go to step 5.
+2. If the year is evenly divisible by 100, go to step 3. Otherwise, go to step 4.
+3. If the year is evenly divisible by 400, go to step 4. Otherwise, go to step 5.
+4. The year is a leap year (it has 366 days). The method isLeapYear needs to return true.
 5. The year is not a leap year (it has 365 days). The method isLeapYear needs to return false.
 
 The following years are not leap years:
