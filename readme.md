@@ -42,7 +42,7 @@ If the parameter kilometersPerHour is less than 0, the method toMilesPerHour nee
 
 Otherwise, if it is positive, calculate the value of miles per hour, round it and return it. For conversion and rounding, check the notes in the text below.
 
-Examples of input/output:
+        Examples of input/output:
 * toMilesPerHour(1.5); → should return value 1
 * toMilesPerHour(10.25); → should return value 6
 * toMilesPerHour(-5.6); → should return value -1
@@ -121,7 +121,7 @@ For example, when the parameter kiloBytes is 2500 it needs to print "2500 KB = 2
 If the parameter kiloBytes is less than 0 then print the text "Invalid Value".
 
 
-EXAMPLE INPUT/OUTPUT
+        EXAMPLE INPUT/OUTPUT
 
 * printMegaBytesAndKiloBytes(2500); → should print the following text: "2500 KB = 2 MB and 452 KB"
 
@@ -155,7 +155,7 @@ In all other cases return false.
 
 If the hourOfDay parameter is less than 0 or greater than 23 return false.
 
-Examples of input/output:
+        Examples of input/output:
 
 * shouldWakeUp (true, 1); → should return true
 
@@ -198,7 +198,7 @@ The following years are leap years:
 1600, 2000, 2400
 This is because they are evenly divisible by both 100 and 400.
 
-Examples of input/output:
+        Examples of input/output:
 
 * isLeapYear(-1600); → should return false since the parameter is not in range (1-9999)
 
@@ -217,7 +217,7 @@ Write a method areEqualByThreeDecimalPlaces with two parameters of type double.
 The method should return boolean and it needs to return true if two double numbers are the same up to three decimal places. Otherwise, return false.
 
 
-EXAMPLES OF INPUT/OUTPUT:
+        EXAMPLES OF INPUT/OUTPUT:
 
 * areEqualByThreeDecimalPlaces(-3.1756, -3.175); → should return true since numbers are equal up to 3 decimal places.
 
