@@ -27,5 +27,8 @@ public class Main {
 
         //Chek TenNumberChecker
         System.out.println("TenNumberChecker "+TeenNumberChecker.hasTeen(9,99,19)+"\n2nd "+TeenNumberChecker.isTeen(9));
+
+        //Check CalcFeetAndInchesToCentimeters
+        System.out.println(CalcFeetAndInchesToCentimeters.calcFeetAndInchesToCentimeters(100));
     }
 }
