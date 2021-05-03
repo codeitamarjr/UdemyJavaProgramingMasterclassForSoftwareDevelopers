@@ -24,5 +24,8 @@ public class Main {
 
         //Check EqualSumChecker
         System.out.println("EqualSumChecker "+EqualSumChecker.hasEqualSum(1,1,1));
+
+        //Chek TenNumberChecker
+        System.out.println("TenNumberChecker "+TeenNumberChecker.hasTeen(9,99,19)+"\n2nd "+TeenNumberChecker.isTeen(9));
     }
 }
