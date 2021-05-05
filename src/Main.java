@@ -1,3 +1,5 @@
+import javax.swing.plaf.synth.SynthTextAreaUI;
+
 public class Main {
     public static void main(String[] args) {
         long miles = SpeedConverter.toMilesPerHour(10.5);
@@ -30,5 +32,8 @@ public class Main {
 
         //Check CalcFeetAndInchesToCentimeters
         System.out.println(CalcFeetAndInchesToCentimeters.calcFeetAndInchesToCentimeters(100));
+
+        //Check SecondsAndMinutes
+        System.out.println(SecondsAndMinutesChallenge.getDurationString(65,45));
     }
 }
