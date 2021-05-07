@@ -35,5 +35,8 @@ public class Main {
 
         //Check SecondsAndMinutes
         System.out.println(SecondsAndMinutesChallenge.getDurationString(65,45));
+
+        //Check areOfACircle
+        System.out.println("areOfACircle: "+AreaCalculator.area(-5.0,4.0));
     }
 }
