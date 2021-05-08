@@ -1,5 +1,3 @@
-import javax.swing.plaf.synth.SynthTextAreaUI;
-
 public class Main {
     public static void main(String[] args) {
         long miles = SpeedConverter.toMilesPerHour(10.5);
@@ -38,5 +36,10 @@ public class Main {
 
         //Check areOfACircle
         System.out.println("areOfACircle: "+AreaCalculator.area(-5.0,4.0));
+
+
+        //Check MinutesToYearsDaysCalculator
+        MinutesToYearsDaysCalculator.printYearsAndDays(561600);
+
     }
 }
