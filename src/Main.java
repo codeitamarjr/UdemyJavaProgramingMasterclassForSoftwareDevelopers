@@ -39,7 +39,7 @@ public class Main {
 
 
         //Check MinutesToYearsDaysCalculator
-        MinutesToYearsDaysCalculator.printYearsAndDays(561600);
+        MinutesToYearsDaysCalculator.printYearsAndDays(561604);
 
     }
 }
