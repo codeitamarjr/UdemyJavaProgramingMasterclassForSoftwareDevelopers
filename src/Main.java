@@ -42,6 +42,8 @@ public class Main {
         System.out.println("isCatPlaying: "+PlayingCat.isCatPlaying(true,35));
 
         //Check printDayOfTheWeek
-        printDayOfTheWeek.dayOfTheWeek(1);
+        for(int count=0;count<=7;count++){
+            printDayOfTheWeek.dayOfTheWeek(count);
+        }
     }
 }
