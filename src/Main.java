@@ -45,5 +45,8 @@ public class Main {
         for(int count=0;count<=7;count++){
             printDayOfTheWeek.dayOfTheWeek(count);
         }
+
+        //Check NumberPalindrome
+        System.out.println("Palindrome: "+NumberPalindrome.isPalindrome(-1001));
     }
 }
