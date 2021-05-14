@@ -10,8 +10,6 @@ public class NumberPalindrome {
             testing /= 10; //to reduce one decimal
         }
 
-        if (reverse == number){
-            return true;
-        } else return false;
+        return reverse == number;
     }
 }
