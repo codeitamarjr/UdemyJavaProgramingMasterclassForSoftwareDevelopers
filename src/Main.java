@@ -48,5 +48,8 @@ public class Main {
 
         //Check NumberPalindrome
         System.out.println("Palindrome: "+NumberPalindrome.isPalindrome(-1001));
+
+        //Check FirstLastDigitSum
+        System.out.println("FirstLastDigitSum: "+FirstLastDigitSum.sumFirstAndLastDigit(5));
     }
 }
