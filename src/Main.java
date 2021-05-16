@@ -51,5 +51,8 @@ public class Main {
 
         //Check FirstLastDigitSum
         System.out.println("FirstLastDigitSum: "+FirstLastDigitSum.sumFirstAndLastDigit(5));
+
+        //Check NumberInWord
+        NumberInWord.printNumberInWord(9);
     }
 }
