@@ -5,8 +5,6 @@ public class Main {
 
         SpeedConverter.printConversion(10.5);
 
-
-
         //check BarkingDog
         System.out.println("Barking "+BarkingDog.shouldWakeUp(true,9));
 
@@ -37,9 +35,12 @@ public class Main {
         //Check areOfACircle
         System.out.println("areOfACircle: "+AreaCalculator.area(-5.0,4.0));
 
-
         //Check MinutesToYearsDaysCalculator
         MinutesToYearsDaysCalculator.printYearsAndDays(561604);
+
+        //Check NumberOfDaysInMonth
+        System.out.println("NumberOfDaysInMonth: "+NumberOfDaysInMonth.isLeapYear(2000));
+        System.out.println("getDaysInMonth: "+NumberOfDaysInMonth.getDaysInMonth(3,2018));
 
     }
 }
