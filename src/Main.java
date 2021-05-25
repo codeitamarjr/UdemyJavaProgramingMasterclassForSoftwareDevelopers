@@ -1,45 +1,47 @@
 public class Main {
     public static void main(String[] args) {
-        long miles = SpeedConverter.toMilesPerHour(10.5);
-        System.out.println("Miles = "+miles);
+        //long miles = SpeedConverter.toMilesPerHour(10.5);
+        //System.out.println("Miles = "+miles);
 
-        SpeedConverter.printConversion(10.5);
+        //SpeedConverter.printConversion(10.5);
 
         //check BarkingDog
-        System.out.println("Barking "+BarkingDog.shouldWakeUp(true,9));
+        //System.out.println("Barking "+BarkingDog.shouldWakeUp(true,9));
 
         //Check DecimalOperator
-        System.out.println("Decimal "+DecimalComparator.areEqualByThreeDecimalPlaces(3.576,3.5769));
+        //System.out.println("Decimal "+DecimalComparator.areEqualByThreeDecimalPlaces(3.576,3.5769));
 
         //check LeapYear
-        System.out.println("Leap "+LeapYear.isLeapYear(1999));
+        //System.out.println("Leap "+LeapYear.isLeapYear(1999));
 
         //Check MegaBytesConverter
-        MegaBytesConverter.printMegaBytesAndKiloBytes(1500);
+        //.printMegaBytesAndKiloBytes(1500);
 
         //Check SpeedConverter
-        System.out.println("SpeedConverter "+SpeedConverter.toMilesPerHour(1500));
+        //System.out.println("SpeedConverter "+SpeedConverter.toMilesPerHour(1500));
 
         //Check EqualSumChecker
-        System.out.println("EqualSumChecker "+EqualSumChecker.hasEqualSum(1,1,1));
+        //System.out.println("EqualSumChecker "+EqualSumChecker.hasEqualSum(1,1,1));
 
         //Chek TenNumberChecker
-        System.out.println("TenNumberChecker "+TeenNumberChecker.hasTeen(9,99,19)+"\n2nd "+TeenNumberChecker.isTeen(9));
+        //System.out.println("TenNumberChecker "+TeenNumberChecker.hasTeen(9,99,19)+"\n2nd "+TeenNumberChecker.isTeen(9));
 
         //Check CalcFeetAndInchesToCentimeters
-        System.out.println(CalcFeetAndInchesToCentimeters.calcFeetAndInchesToCentimeters(100));
+        //System.out.println(CalcFeetAndInchesToCentimeters.calcFeetAndInchesToCentimeters(100));
 
         //Check SecondsAndMinutes
-        System.out.println(SecondsAndMinutesChallenge.getDurationString(65,45));
+       // System.out.println(SecondsAndMinutesChallenge.getDurationString(65,45));
 
         //Check areOfACircle
-        System.out.println("areOfACircle: "+AreaCalculator.area(-5.0,4.0));
+        //System.out.println("areOfACircle: "+AreaCalculator.area(-5.0,4.0));
 
         //Check MinutesToYearsDaysCalculator
-        MinutesToYearsDaysCalculator.printYearsAndDays(561604);
+        //MinutesToYearsDaysCalculator.printYearsAndDays(561604);
 
         //Check SumOddRange
-        System.out.println(SumOddRange.sumOdd(1,100));
+        //System.out.println(SumOddRange.sumOdd(1,100));
+
+        SimpleCalculator calculator = new SimpleCalculator(); calculator.setFirstNumber(5.0); calculator.setSecondNumber(4); System.out.println("add= " + calculator.getAdditionResult()); System.out.println("subtract= " + calculator.getSubtractionResult()); calculator.setFirstNumber(5.25); calculator.setSecondNumber(0); System.out.println("multiply= " + calculator.getMultiplicationResult()); System.out.println("divide= " + calculator.getDivisionResult());
 
     }
 }
