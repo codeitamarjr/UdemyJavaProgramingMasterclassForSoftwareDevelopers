@@ -6,6 +6,8 @@ public class Bank {
     private String customerPhoneNumber;
 
     public Bank(){
+        this(0000,0000,"Default","default@mail.com","no Phone");
+        System.out.println("Default data settled.");
     }
 
     public Bank(int number, double balance, String customerName, String customerEmail,
@@ -15,10 +17,7 @@ public class Bank {
         this.customerName = customerName;
         this.customerEmail = customerEmail;
         this.customerPhoneNumber = customerPhoneNumber;
-
     }
-
-
 
     public int getNumber(){
         return this.number;
