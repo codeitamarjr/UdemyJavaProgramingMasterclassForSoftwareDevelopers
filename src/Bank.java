@@ -10,6 +10,11 @@ public class Bank {
         System.out.println("Default data settled.");
     }
 
+    public Bank(String customerName, String customerEmail, String customerPhoneNumber){
+        this(0000,0000,customerName,customerEmail,customerPhoneNumber);
+        System.out.println("Default data settled for balance and account number.");
+    }
+
     public Bank(int number, double balance, String customerName, String customerEmail,
                    String customerPhoneNumber){
         this.number = number;
