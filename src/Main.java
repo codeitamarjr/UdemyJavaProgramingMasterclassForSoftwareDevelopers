@@ -51,19 +51,22 @@ public class Main {
         // System.out.println("multiply= " + calculator.getMultiplicationResult());
         // System.out.println("divide= " + calculator.getDivisionResult());
 
-        Bank account = new Bank();
-        account.setNumber(123456);
-        account.setBalance(1000);
-        account.setCustomerName("Itamar Junior");
-        account.setCustomerEmail("email@mail.com");
-        account.setCustomerPhoneNumber("+(353)1234-56789");
-        System.out.println("Welcome "+account.getCustomerName()+", account number:"+account.getNumber()+", phone:"+account.getCustomerPhoneNumber()+", email:"+account.getCustomerEmail()+", your balance is "+ account.getBalance());
-        System.out.println("Making a deposit of "+500+" to your account, New balance is:"+account.deposit(500));
-        System.out.println("Making a withdraw of "+300+" to your account, New balance is:"+account.withdraw(300));
+        //Bank account = new Bank();
+        //account.setNumber(123456);
+        //account.setBalance(1000);
+        //account.setCustomerName("Itamar Junior");
+        //account.setCustomerEmail("email@mail.com");
+        //account.setCustomerPhoneNumber("+(353)1234-56789");
+        //System.out.println("Welcome "+account.getCustomerName()+", account number:"+account.getNumber()+", phone:"+account.getCustomerPhoneNumber()+", email:"+account.getCustomerEmail()+", your balance is "+ account.getBalance());
+        //System.out.println("Making a deposit of "+500+" to your account, New balance is:"+account.deposit(500));
+        //System.out.println("Making a withdraw of "+300+" to your account, New balance is:"+account.withdraw(300));
 
-        Bank account2 = new Bank(7890,100,"Bob Blue","email@mail.com","(353)2-100");
-        System.out.println("Welcome "+account2.getCustomerName()+", account number:"+account2.getNumber()+", phone:"+account2.getCustomerPhoneNumber()+", email:"+account2.getCustomerEmail()+", your balance is "+ account2.getBalance());
-        System.out.println("Making a deposit of "+400+" to your account, New balance is:"+account2.deposit(500));
+        //Bank account2 = new Bank(7890,100,"Bob Blue","email@mail.com","(353)2-100");
+        //System.out.println("Welcome "+account2.getCustomerName()+", account number:"+account2.getNumber()+", phone:"+account2.getCustomerPhoneNumber()+", email:"+account2.getCustomerEmail()+", your balance is "+ account2.getBalance());
+        //System.out.println("Making a deposit of "+400+" to your account, New balance is:"+account2.deposit(500));
 
+        VipBank vipCustomer = new VipBank();
+        System.out.println(vipCustomer.getName());
+        System.out.println(vipCustomer.getCreditLimit());
     }
 }
