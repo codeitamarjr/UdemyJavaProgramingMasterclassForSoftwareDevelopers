@@ -1,3 +1,5 @@
+package constructor;
+
 public class VipBank {
     private String name;
     private String emailAddress;
