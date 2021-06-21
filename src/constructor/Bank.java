@@ -1,3 +1,5 @@
+package constructor;
+
 public class Bank {
     private int number;
     private double balance;
